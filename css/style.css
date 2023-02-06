@@ -232,14 +232,23 @@ main{
 
     .variedades-gustos{
         grid-template-columns: 1fr 1fr;
-        gap: 3.2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .variedades{
+        padding: 2rem 0;
     }
 
     .gustos{
-        width: 16rem;
+        width: 9rem;
         
     }
 
+    .contactos{
+        font-size: 1.6rem;
+    }
 
     .reds{
         font-size: 3.2rem;
