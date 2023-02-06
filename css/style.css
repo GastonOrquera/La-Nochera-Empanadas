@@ -215,6 +215,38 @@ main{
 }
 
 
+/* MEDIA PARA CELULAR */
+
+@media (max-width: 767px){
+
+    header{
+        flex-direction: column;
+    }
+
+    .navBar{
+        margin-top: 2.6rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .variedades-gustos{
+        grid-template-columns: 1fr 1fr;
+        gap: 3.2rem;
+    }
+
+    .gustos{
+        width: 16rem;
+        
+    }
+
+
+    .reds{
+        font-size: 3.2rem;
+    }
+}
+
+
 
 
 
